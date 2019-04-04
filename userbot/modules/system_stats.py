@@ -101,9 +101,9 @@ async def amireallyalive(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit(
             "`"
-            "Your bot is running \n\n"
-            f"Telethon version: {version.__version__} \n"
-            f"Python: {python_version()} \n"
-            f"User: {uname().node}"
-            "`"
+            "Apun Ashwathama Hai kabhi Nahi Marega!"
+
+
+
+
             )
